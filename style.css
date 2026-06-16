@@ -105,16 +105,20 @@ body {
 /* --- Hero Section --- */
 .hero {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 80px 8%;
-    gap: 60px;
-    min-height: calc(85vh - 80px);
+    justify-content: center;
+    text-align: center;
+    padding: 80px 8% 60px;
+    gap: 40px;
+    min-height: calc(80vh - 80px);
 }
 
 .hero-content {
-    flex: 1;
-    max-width: 550px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-content .badge {
@@ -145,6 +149,7 @@ body {
 
 .hero-actions {
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 
