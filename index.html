@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poli-Tlazotla | Descarga la App de Náhuatl del IPN</title>
+    <meta name="description" content="Aprende Náhuatl de forma interactiva y divertida desde tu dispositivo móvil. Descarga Poli-Tlazotla, el proyecto del IPN con diccionario ilustrado, juegos y audio nativo.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Prehispanic Corner Borders for the Main Layout -->
+    <div class="corner-engraving top-left"></div>
+    <div class="corner-engraving top-right"></div>
+    <div class="corner-engraving bottom-left"></div>
+    <div class="corner-engraving bottom-right"></div>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-text">Poli-Tlazotla</span>
+        </div>
+        <div class="institutional-badge">
+            <span>Orgullo Politécnico</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="badge">PROYECTO MULTIMEDIA IPN</span>
+                <h1>Aprende Náhuatl jugando</h1>
+                <p class="slogan">Descubre la riqueza de nuestra lengua originaria a través de una experiencia interactiva ilustrada y auditiva.</p>
+                <div class="hero-actions">
+                    <a href="#downloads" class="btn btn-primary">Descargar Aplicaciones</a>
+                    <a href="#features" class="btn btn-secondary">Conocer Características</a>
+                </div>
+            </div>
+            <div class="hero-mascots">
+                <div class="mascot-frame">
+                    <img src="assets/mascot_burrita.png" alt="Mascota Burrita Blanca IPN" id="mascot-burrita" class="mascot-img">
+                    <img src="assets/mascot_lobo.png" alt="Mascota Lobo Politécnico" id="mascot-lobo" class="mascot-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Downloads Section -->
+        <section class="downloads" id="downloads">
+            <h2 class="section-title">Elige tu versión de Poli-Tlazotla</h2>
+            <p class="section-subtitle">Hemos diseñado dos ediciones de la aplicación para adaptarse a tus necesidades de aprendizaje.</p>
+            
+            <div class="download-grid">
+                <!-- App 1: Tradicional -->
+                <div class="download-card card-classic" id="card-edition-1">
+                    <div class="card-header">
+                        <span class="card-edition">EDICIÓN 1</span>
+                        <h3>Poli-Tlazotla Tradicional</h3>
+                        <span class="card-badge">Diseño Tradicional</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">Explora el diccionario ilustrado completo, realiza búsquedas rápidas, reproduce audios nativos y juega interactivamente. Esta versión cuenta con la interfaz clásica y tradicional del proyecto.</p>
+                        <ul class="features-list">
+                            <li><span>📖</span> Diccionario ilustrado de términos</li>
+                            <li><span>🔍</span> Buscador de palabras rápido</li>
+                            <li><span>🔊</span> Audios de pronunciación nativa</li>
+                            <li><span>🎨</span> Interfaz clásica y tradicional</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="Politazotla.apk" download class="btn-download btn-gold" id="btn-dl-1">
+                            <span class="icon">📥</span>
+                            <span class="btn-text">
+                                <strong>Descargar APK</strong>
+                                <small>Edición Tradicional (E1)</small>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 2: Moderna -->
+                <div class="download-card card-audio" id="card-edition-2">
+                    <div class="card-header">
+                        <span class="card-edition">EDICIÓN 2</span>
+                        <h3>Poli-Tlazotla Moderna</h3>
+                        <span class="card-badge bg-green">Diseño Moderno</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">Explora el diccionario ilustrado completo, realiza búsquedas rápidas, reproduce audios nativos y juega interactivamente. Esta versión cuenta con la interfaz de diseño moderno y estilizado.</p>
+                        <ul class="features-list">
+                            <li><span>📖</span> Diccionario ilustrado de términos</li>
+                            <li><span>🔍</span> Buscador de palabras rápido</li>
+                            <li><span>🔊</span> Audios de pronunciación nativa</li>
+                            <li><span>📱</span> Interfaz moderna y estilizada</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="Politazotla2.apk" download class="btn-download btn-green" id="btn-dl-2">
+                            <span class="icon">📥</span>
+                            <span class="btn-text">
+                                <strong>Descargar APK</strong>
+                                <small>Edición Moderna (E2)</small>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <h2 class="section-title">¿Qué encontrarás en la aplicación?</h2>
+            <div class="features-grid">
+                <div class="feature-item" id="feat-dict">
+                    <div class="feature-icon">📖</div>
+                    <h4>Vocabulario Ilustrado</h4>
+                    <p>Cada palabra cuenta con su respectiva ilustración de alta calidad para facilitar el aprendizaje asociativo de los estudiantes.</p>
+                </div>
+                <div class="feature-item" id="feat-game">
+                    <div class="feature-icon">🎮</div>
+                    <h4>Gamificación</h4>
+                    <p>Aprende de forma didáctica resolviendo evaluaciones interactivas y ganando puntos al seleccionar la imagen o audio correctos.</p>
+                </div>
+                <div class="feature-item" id="feat-ipn">
+                    <div class="feature-icon">🎓</div>
+                    <h4>Identidad Guinda y Oro</h4>
+                    <p>Desarrollada bajo la supervisión académica del IPN para preservar las lenguas nacionales en ambientes virtuales modernos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <h2 class="section-title">Palabras Clave Ilustradas</h2>
+            <p class="section-subtitle">Un vistazo al diccionario gráfico e interactivo de la aplicación.</p>
+            <div class="gallery-grid">
+                <div class="gallery-card" id="gal-xochitl">
+                    <img src="assets/img_xochitl.png" alt="Xóchitl - Flor en Náhuatl" class="gallery-img">
+                    <div class="gallery-info">
+                        <h5>Xóchitl</h5>
+                        <p>Significado: Flor 🌸</p>
+                    </div>
+                </div>
+                <div class="gallery-card" id="gal-yolotl">
+                    <img src="assets/img_yolotl.png" alt="Yólotl - Corazón en Náhuatl" class="gallery-img">
+                    <div class="gallery-info">
+                        <h5>Yólotl</h5>
+                        <p>Significado: Corazón ❤️</p>
+                    </div>
+                </div>
+                <div class="gallery-card" id="gal-calli">
+                    <img src="assets/img_calli.png" alt="Calli - Casa en Náhuatl" class="gallery-img">
+                    <div class="gallery-info">
+                        <h5>Calli</h5>
+                        <p>Significado: Casa 🏠</p>
+                    </div>
+                </div>
+                <div class="gallery-card" id="gal-coatl">
+                    <img src="assets/img_coatl.png" alt="Cóatl - Serpiente en Náhuatl" class="gallery-img">
+                    <div class="gallery-info">
+                        <h5>Cóatl</h5>
+                        <p>Significado: Serpiente 🐍</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h4>Poli-Tlazotla</h4>
+                <p>El término <strong>Tlazotla</strong> (o <em>tlazohtla</em>) proviene del náhuatl clásico y significa <strong>"amar, valorar o estimar altamente"</strong>. Ese es el espíritu de nuestro proyecto: amar y valorar nuestras raíces.</p>
+            </div>
+            <div class="footer-credits">
+                <p>Materia: Producción Multimedia y Ambientes Virtuales</p>
+                <p>Estudiante: Flores López Felipe Simao</p>
+                <p>Profesora: Veronica Suarez</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Poli-Tlazotla. Creado con orgullo en el Instituto Politécnico Nacional 🇲🇽</p>
+        </div>
+    </footer>
+
+</body>
+</html>
