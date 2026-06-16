@@ -129,6 +129,16 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     display: block;
+    margin-bottom: 8px;
+}
+
+.hero-content .group-code {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
     margin-bottom: 16px;
 }
 
